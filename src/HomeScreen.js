@@ -13,6 +13,7 @@ function HomeScreen() {
             <Banner />
 
             {/* Row */}
+            {/* <Row /> */}
 
         </div>
     )
