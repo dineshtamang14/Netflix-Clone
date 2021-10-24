@@ -45,3 +45,8 @@
     margin-top: 20px;
     font-weight: 600;
 }
+
+.signupScreen__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
