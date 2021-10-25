@@ -36,7 +36,7 @@ function App() {
           <LoginScreen />
         ) : (
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
             <HomeScreen />
             </Route>
           </Switch>
