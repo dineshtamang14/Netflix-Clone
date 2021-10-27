@@ -1,5 +1,5 @@
 import firebase from "firebase";
-// import firebase from "firebase/app";
+// import firebase from "firebase";
 // import "firebase/auth";
 // import "firebase/firestore";
 
@@ -10,11 +10,11 @@ const firebaseConfig = {
     storageBucket: "netflix-clone-fe6cf.appspot.com",
     messagingSenderId: "1071096604529",
     appId: "1:1071096604529:web:de01b215673cc352f538d0"
-  };
+};
 
 
-const firebaseapp = firebase.initializeApp(firebaseConfig);
-const db = firebaseapp.firestore();
+const app = firebase.initializeApp(firebaseConfig);
+const db = app.firestore();
 const auth = firebase.auth();
 
 export {auth};
