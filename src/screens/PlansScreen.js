@@ -1,5 +1,5 @@
 import React from 'react'
-import "./plansScreen.css";
+import "./PlansScreen.css";
 
 function PlansScreen() {
     return (
